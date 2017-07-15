@@ -1,0 +1,27 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: echoserver
+  labels:
+    app: echoserver
+spec:
+  containers:
+  - name: echoserver
+    image: gcr.io/google-containers/echoserver:1.6
+    ports:
+    - containerPort: 8080
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: echoserver
+spec:
+  type: LoadBalancer
+  selector:
+    app: echoserver
+  ports:
+  - port: 80
+    targetPort: 8080
+    name: http
+    nodePort: 31000
+  loadBalancerIP: 35.185.177.143
