@@ -37,6 +37,7 @@ sudo apt-get update && sudo apt-get install google-cloud-sdk
 - เปิด terminal พิมพ์คำสั่ง `gcloud auth login` หรือ `gcloud auth application-default login`
 - running the following command
 - Then open the Dashboard interface by navigating to the following location in your browser: http://localhost:8001/ui
+- เริ่มศึกษาตัวอย่าง 01-08 ดู command ด้านล่างประกอบ
 
 
 ## Command line
