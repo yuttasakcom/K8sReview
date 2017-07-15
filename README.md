@@ -26,7 +26,7 @@ sudo apt-get update && sudo apt-get install google-cloud-sdk
 ```
 
 ## Install kubectl
-`sudo apt install kubectl`
+`sudo apt install -y kubectl`
 
 ## Begin step
 หลังจากติดตั้ง Tools แล้วให้ทำตามขั้นตอนประมาณนี้
