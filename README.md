@@ -4,7 +4,7 @@
 - [Setup on Ubuntu](#setup-on-ubuntu)
 - [Install kubectl](#install-kubectl)
 - [Gcloud Command](#gcloud-command)
-- [VM instances](#vm-instances)
+- [Begin step](#begin-step)
 - [Command line](#command-line)
 
 ## Setup on Ubuntu
@@ -28,8 +28,15 @@ sudo apt-get update && sudo apt-get install google-cloud-sdk
 ## Install kubectl
 `sudo apt install kubectl`
 
-## VM instances
-create project ให้สร้าง vm instances ก่อน [Link](https://console.cloud.google.com/projectselector/compute/instances)<br>
+## Begin step
+หลังจากติดตั้ง Tools แล้วให้ทำตามขั้นตอนประมาณนี้
+- สมัครสมาชิกลงทะเบียนสร้าง Account [Link](https://cloud.google.com/)
+- Create Project
+- Create a container cluster
+- สร้าง container clusters เสร็จกด Connect button
+- เปิด terminal พิมพ์คำสั่ง `gcloud auth login` หรือ `gcloud auth application-default login`
+- running the following command
+- Then open the Dashboard interface by navigating to the following location in your browser: http://localhost:8001/ui
 
 
 ## Command line
@@ -40,10 +47,6 @@ gcloud components list
 gcloud auth login
 gcloud auth application-default login
 gcloud docker -- pull gcr.io/google-containers/echoserver:1.6
-
-# gclound ui กด connect instance
-gcloud container clusters get-credentials cluster-1 --zone asia-southeast1-b --project yoprogrammer-k8s
-kubectl proxy
 
 # kubectl command
 kubectl create -f 01-pod.yaml
