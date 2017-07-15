@@ -6,7 +6,7 @@
 - [Gcloud Command](#gcloud-command)
 
 ## Setup on Ubuntu
-![Link](#https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu)<br>
+[Link](https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu)<br>
 
 คำสั่งติดตั้งบน Ubuntu<br>
 ```
