@@ -4,6 +4,7 @@
 - [Setup on Ubuntu](#setup-on-ubuntu)
 - [Install kubectl](#install-kubectl)
 - [Gcloud Command](#gcloud-command)
+- [VM instances](#vm-instances)
 - [Command line](#command-line)
 
 ## Setup on Ubuntu
@@ -26,6 +27,10 @@ sudo apt-get update && sudo apt-get install google-cloud-sdk
 
 ## Install kubectl
 `sudo apt install kubectl`
+
+## VM instances
+create project ให้สร้าง vm instances ก่อน [Link](https://console.cloud.google.com/projectselector/compute/instances)<br>
+
 
 ## Command line
 ```
