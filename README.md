@@ -1,5 +1,5 @@
 ## Kubernetes Manual
-> คู่มือการใช้งาน Kubernetes ฉบับ YoProgrammer
+> คู่มือการใช้งาน Kubernetes
 
 ## สารบัญ
 - [Setup on Ubuntu](#setup-on-ubuntu)
